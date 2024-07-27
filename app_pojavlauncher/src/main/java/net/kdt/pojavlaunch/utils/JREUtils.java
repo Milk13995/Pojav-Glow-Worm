@@ -300,7 +300,7 @@ public class JREUtils {
                 if (DRIVER_MODLE.equals("driver_panfrost")) {
                     envMap.put("MESA_DISK_CACHE_SINGLE_FILE", "1");
                     if (MESA_LIBS.equals("default")) {
-                        envMap.put("PAN_MESA_DEBUG", "perf");
+                        envMap.put("PAN_MESA_DEBUG", "dirty");
                     }
                 }
             }
